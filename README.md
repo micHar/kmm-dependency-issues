@@ -11,6 +11,8 @@ The problem is that within the `jvmmodule` I can't access `SomeMultiPlatformClas
 I get `java.lang.NoClassDefFoundError: com/example/multiplatform/multiplatformmodule/SomeMultiPlatformClass`.
 IDE (Anroid Studio) also marks this class as unresolved.
 
+![alt text](https://raw.githubusercontent.com/micHar/kmm-dependency-issues/master/screenshot.png)
+
 # Additional notes
 
 It builds fine if imported from another multiplatform module (not part of this example), e.g. like this

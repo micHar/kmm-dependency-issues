@@ -1,6 +1,7 @@
 package com.example.multiplatform.jvmmodule
 
-import org.junit.jupiter.api.Test
+import kotlin.test.Test
+import kotlin.test.assertTrue
 
 class SomeJvmTest {
 

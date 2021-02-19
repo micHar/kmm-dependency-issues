@@ -1,6 +1,6 @@
 # KMM - jvm depending on multiplatform issues
 
-A minimum example of a dependency issue when accessing multiplatform classes from a jvm module (especially in tests)
+A minimum example of a dependency issue when accessing multiplatform classes from a jvm module (especially in tests). Created for [this stackoverflow question](https://stackoverflow.com/questions/65830632/cant-access-commonmain-multiplatform-classes-from-a-jvm-only-module)
 
 Structure
 - `multiplatformmodule` - contains a single kotlin class `SomeMultiPlatformClass`  
